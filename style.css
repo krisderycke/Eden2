@@ -3,6 +3,16 @@ html, body {
   margin: 0px;
 }
 
+.input {
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+  -webkit-box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
+          box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
+}
+
 .main-pic {
   height: 100%;
   margin: 0;
@@ -19,42 +29,40 @@ h1 {
 
 .chart {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
 }
+
 .chart #img {
   width: 300px;
   height: 300px;
 }
+
 @media only screen and (max-width: 578 px) {
   .chart #img {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     width: 570px;
   }
 }
+
 @media only screen and (max-width: 578 px) {
   .chart {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-.chart .chart-text {
-  margin: 0;
-  height: auto;
-  flex-basis: 68%;
-  text-align: center;
-  overflow: hidden;
-  color: white;
-  background: linear-gradient(to bottom right, #67f167, #003600);
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
-}
-
-/*# sourceMappingURL=style.css.map */
--flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
             flex-flow: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -73,10 +81,9 @@ h1 {
   text-align: center;
   overflow: hidden;
   color: white;
-  background: -webkit-gradient(linear, left top, right bottom, from(#67f167), to(#003600));
-  background: linear-gradient(to bottom right, #67f167, #003600);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(103, 241, 103, 0.568)), to(rgba(0, 54, 0, 0.5)));
+  background: linear-gradient(to bottom right, rgba(103, 241, 103, 0.568), rgba(0, 54, 0, 0.5));
   border-radius: 5px;
-  -webkit-box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
-          box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
