@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+.main-pic {
+  height: 100%;
+  margin: 0;
+  background-image: url(images/art-blur-bubble-268819.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.chart {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.chart #img {
+  width: 300px;
+  height: 300px;
+}
+@media only screen and (max-width: 578 px) {
+  .chart #img {
+    flex-basis: 100%;
+    width: 570px;
+  }
+}
+@media only screen and (max-width: 578 px) {
+  .chart {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.chart .chart-text {
+  margin: 0;
+  height: auto;
+  flex-basis: 68%;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  background: linear-gradient(to bottom right, #67f167, #003600);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
+}
+
+/*# sourceMappingURL=style.css.map */
+-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.chart .chart-text {
+  margin: 0;
+  height: auto;
+  -ms-flex-preferred-size: 68%;
+      flex-basis: 68%;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(#67f167), to(#003600));
+  background: linear-gradient(to bottom right, #67f167, #003600);
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
+          box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.356);
+}
+/*# sourceMappingURL=style.css.map */
