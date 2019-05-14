@@ -1,6 +1,78 @@
+$color1: rgb(236, 236, 236);
+$color2: rgb(88, 180, 34);
+$color3: rgb(70, 69, 69);
+
 html,body {
     height:100vh;
     margin:0;
 }
+html {
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    color: $color1;
+    background: $color1;
+    }
+    body {
+    overflow: scroll;
+    }
+    a {
+    text-decoration: none;
+    color: $color1;
+    }
 
+.line-kris {
+    width: 50%;
+}
+
+#main-pic{
+    height:100vh;
+    margin:0;
+    background-image: url(images/overview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.kris-container{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 55vw;
+    margin: 0 auto;
+    // background: red;
+    .kris-box1{
+    flex-basis: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    // background: green;
+    justify-content: flex-start;
+    p{
+    padding: 1em 0 0 0;
+    font-size: 1em;
+    color: $color3;
+    }
+    
+        }
+        
+    img{
+        width: 40%;
+        height:60%;
+        margin-left: 3em;
+    }
+    }
+    .kris-title{
+    
+    display: inline-block;
+    text-align: left;
+    width: 80vw;
+    padding-right: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+    color:rgb(15, 53, 122);
+    position: relative;
+    text-align: right;
+    border-bottom: 1px solid rgb(15, 53, 122);
+    position: relative;
+    left:-40vw;
+    top: -3em;
+    }
 
