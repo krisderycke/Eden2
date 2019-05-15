@@ -1,95 +1,113 @@
 $color1: rgb(236, 236, 236);
 $color2: rgb(88, 180, 34);
 $color3: rgb(70, 69, 69);
+$color4: rgb(0, 128, 146);
 
-html,body {
-    height:100vh;
-    margin:0;
+html,
+body {
+  height: 100vh;
+  margin: 0;
 }
 html {
-    font-size: 16px;
-    font-family: "roboto", sans-serif;
-    color: $color1;
-    background: $color1;
-    }
-    body {
-    overflow: scroll;
-    }
-    a {
-    text-decoration: none;
-    color: $color1;
-    }
-
-.line-kris {
-    width: 50%;
+  font-size: 16px;
+  font-family: "roboto", sans-serif;
+  color: $color1;
+  background: $color1;
+}
+body {
+  overflow: scroll;
+}
+a {
+  text-decoration: none;
+  color: $color1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
 }
 
-#main-pic{
-    height:100vh;
-    margin:0;
-    background-image: url(images/image.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+#main-pic {
+  height: 100vh;
+  margin: 0;
+  background-image: url(/images/hightech.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.kris-container{
-    display: flex;
-    flex-flow: row nowrap;
-    width: 55vw;
-    margin: 0 auto;
-    align-items:center;
-    // background: red;
-    .kris-box1{
+.kris-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 55vw;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  align-items: center;
+  .kris-box1 {
     flex-basis: 60%;
     display: flex;
     flex-flow: column wrap;
-    // background: green;
     justify-content: flex-start;
-    p{
-    padding: 1em 0 0 0;
-    font-size: 1em;
-    color: $color3;
-    }
-    
-        }
-        
-    img{
-        width: 40%;
-        height:60%;
-        margin-left: 3em;
-        padding-top: 1em;
-    }
-    }
-    .kris-title{
-    
-    display: inline-block;
-    width: 80vw;
-    padding-right: 2em;
-    text-transform: uppercase;
-    font-size: 2em;
-    color:rgb(15, 53, 122);
-    text-align: right;
-    border-bottom: 1px solid rgb(15, 53, 122);
-    position: relative;
-    left:-40vw;
-    top: -1em;
-    }
-.container-kris {
-    width:100vw;
-    height:30vh;
-    background-color: green;
     p {
-        padding: 1em 50px;
+      padding: 1em 0 0 0;
+      font-size: 1em;
+      color: $color3;
     }
+  }
+
+  img {
+    width: 40%;
+    height: 60%;
+    margin-left: 3em;
+    padding-top: 1em;
+  }
+}
+.kris-title {
+  color: $color4;
+  font-size: 2.25em;
+  font-weight: 80;
+  margin-block-end: 1em;
+  border-bottom: 1px solid $color4;
+  position: relative;
+  right: 45vw;
+  text-align: right;
+  width: 100vw;
 }
 
-.parallax{
-    background: url(/images/solar.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width:600px;
-    height:400px;
+.para-cont {
+  padding: 2em;
+  width: 55vw;
+  margin: 0 auto;
+  p,
+  ul {
+    color: $color3;
+  }
+}
+
+.parallax-kris {
+  background-image: url(images/image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  margin: {
+    top: 100px;
+    bottom: 10px;
+  }
+}
+
+.parallax2-kris {
+  background-image: url(images/water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  margin: {
+    top: 100px;
+    bottom: 10px;
+  }
 }

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100vh;
   margin: 0;
 }
@@ -19,14 +20,19 @@ a {
   color: #ececec;
 }
 
-.line-kris {
-  width: 50%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
 }
 
 #main-pic {
   height: 100vh;
   margin: 0;
-  background-image: url(images/image.png);
+  background-image: url(/images/hightech.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,6 +48,7 @@ a {
           flex-flow: row nowrap;
   width: 55vw;
   margin: 0 auto;
+  padding-bottom: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -76,36 +83,48 @@ a {
 }
 
 .kris-title {
-  display: inline-block;
-  width: 80vw;
-  padding-right: 2em;
-  text-transform: uppercase;
-  font-size: 2em;
-  color: #0f357a;
-  text-align: right;
-  border-bottom: 1px solid #0f357a;
+  color: #008092;
+  font-size: 2.25em;
+  font-weight: 80;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  border-bottom: 1px solid #008092;
   position: relative;
-  left: -40vw;
-  top: -1em;
-}
-
-.container-kris {
+  right: 45vw;
+  text-align: right;
   width: 100vw;
-  height: 30vh;
-  background-color: green;
 }
 
-.container-kris p {
-  padding: 1em 50px;
+.para-cont {
+  padding: 2em;
+  width: 55vw;
+  margin: 0 auto;
 }
 
-.parallax {
-  background: url(/images/solar.jpg);
+.para-cont p,
+.para-cont ul {
+  color: #464545;
+}
+
+.parallax-kris {
+  background-image: url(images/image2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  width: 600px;
-  height: 400px;
+  height: 75vh;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.parallax2-kris {
+  background-image: url(images/water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style2.css.map */
