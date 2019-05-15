@@ -27,7 +27,7 @@ html {
 #main-pic{
     height:100vh;
     margin:0;
-    background-image: url(images/overview.jpg);
+    background-image: url(images/image.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,6 +38,7 @@ html {
     flex-flow: row nowrap;
     width: 55vw;
     margin: 0 auto;
+    align-items:center;
     // background: red;
     .kris-box1{
     flex-basis: 60%;
@@ -57,22 +58,38 @@ html {
         width: 40%;
         height:60%;
         margin-left: 3em;
+        padding-top: 1em;
     }
     }
     .kris-title{
     
     display: inline-block;
-    text-align: left;
     width: 80vw;
     padding-right: 2em;
     text-transform: uppercase;
     font-size: 2em;
     color:rgb(15, 53, 122);
-    position: relative;
     text-align: right;
     border-bottom: 1px solid rgb(15, 53, 122);
     position: relative;
     left:-40vw;
-    top: -3em;
+    top: -1em;
     }
+.container-kris {
+    width:100vw;
+    height:30vh;
+    background-color: green;
+    p {
+        padding: 1em 50px;
+    }
+}
 
+.parallax{
+    background: url(/images/solar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:600px;
+    height:400px;
+}
