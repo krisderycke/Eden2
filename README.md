@@ -10,13 +10,13 @@ We each made our own section on this webpage:
 | Developer | Web section |
 | --------- | :---------: |
 | Kin       | Front-page  |
-| Yasmine   |  Landscape  |
-| Aaron     |   Drones    |
+| Jasmine   |  Landscape  |
+| Aaron     |  Robotics   |
 | Kris      |   Energy    |
 
 ## Why:
 Basically because Filip said we had to this! But also because we like doing this. This project is our "Final" project, at least for HTML and (S)CSS. And thus making us a "not-so-junior junior-web-developer".  
-You can find our project ***here(!!!!)**. We've put this project on Github, so we can publish it and show it to ours parents so they can be proud of us that we finally do something productively with our lives.
+You can find our project [here](https://cheungkinwong.github.io/project-eden/ "Project Eden"). We've put this project on Github, so we can publish it and show it to ours parents so they can be proud of us that we finally do something productively with our lives.
 
 ### License:
 The license can be found in **this** repo under the name "license.txt"
@@ -37,9 +37,9 @@ The license can be found in **this** repo under the name "license.txt"
 
 ### Content
 - [x] Openinghours (if needed)
-- [ ] Address (if needed)
-- [ ] Google maps
-- [ ] Clickable email
+- [x] Address (if needed)
+- [x] Google maps
+- [x] Clickable email
 - [x] A working form (you can use https://formspree.io)
 
 ### Text life matters aka typography is real
@@ -72,15 +72,15 @@ The license can be found in **this** repo under the name "license.txt"
 - [x] All the keywords this company wants to be found on are on the page 
 - [x] Page has an H1 tag
 - [x] Page has keyword meta tags
-- [ ] Page has a title with the keywords in
-- [ ] Page loads fast
+- [x] Page has a title with the keywords in
+- [x] Page loads fast
  
 ### Keep your workspace clean
-- [ ] No unused files in the repo
-- [ ] All files have a good, clear name
-- [ ] Good folder structure
-- [ ] The CSS folder does not have an image folder
-- [ ] Not too many files in the root folder 
+- [x] No unused files in the repo
+- [x] All files have a good, clear name
+- [x] Good folder structure
+- [x] The CSS folder does not have an image folder
+- [x] Not too many files in the root folder 
 
 ### Git(hub) is what you make it
 - [ ] All commits use the correct format (if applied this commit will...)
@@ -102,50 +102,50 @@ The license can be found in **this** repo under the name "license.txt"
 - [x] If needed they are included in the repo and are mentioned in the readme
 - [x] The readme has a markdown title
 - [x] The readme is divided in sections
-- [ ] The readme is fun to read
+- [x] The readme is fun to read
 - [x] The readme looks good
 - [x] The readme is clear, even for someone that has no idea what is going on
 
 ### I'm So Meta, Even This Acronym
 - [ ] Social media sharing meta tags are correct
-- [ ] Keywords meta tag
-- [ ] Description meta tag
-- [ ] Title of the page is included
-- [ ] Favicon is included
-- [ ] Responsive meta tag is included
-- [ ] Charset is defined
-- [ ] Author is defined
+- [x] Keywords meta tag
+- [x] Description meta tag
+- [x] Title of the page is included
+- [x] Favicon is included
+- [x] Responsive meta tag is included
+- [x] Charset is defined
+- [x] Author is defined
 
 ### Data is the new oil
 - [ ] (Google) analytics
 
 ### Perform all the tests
-- [ ] Lighthouse
+- [x] Lighthouse
 - [ ] W3C validator
 - [ ] Monkey test
 
 ### Putting the antics back in semantics (but only for the html)
-- [ ] The html is semanticly correct
-- [ ] Navigation is in a nav
-- [ ] Lists use list tags
-- [ ] H tags are used to signal importance
-- [ ] No div is used where another element is available
-- [ ] No span is used where another element is available
-- [ ] No inline styling is put on any element
-- [ ] Id's are only used once
-- [ ] The same 'type' of elements have the same classes
-- [ ] All images have an alt attribute and a title
+- [x] The html is semanticly correct
+- [x] Navigation is in a nav
+- [x] Lists use list tags
+- [x] H tags are used to signal importance
+- [x] No div is used where another element is available
+- [x] No span is used where another element is available
+- [x] No inline styling is put on any element
+- [x] Id's are only used once
+- [x] The same 'type' of elements have the same classes
+- [x] All images have an alt attribute and a title
 
 ### Just kidding CSS deserves some love too
-- [ ] CSS follows the DRY principle
-- [ ] The CSS does not contain conflicting selectors (multiple definition for the same class/id)
-- [ ] There is no use of !important where it can be avoided
-- [ ] The page is responsive
+- [x] CSS follows the DRY principle
+- [x] The CSS does not contain conflicting selectors (multiple definition for the same class/id)
+- [x] There is no use of !important where it can be avoided
+- [x] The page is responsive
 
 
 ### Thermometer goes WHERE???
-- [ ] Your own style is included after the style of frameworks
-- [ ] Script tags are put at the end of the body or in the head with async/defer if possible
+- [x] Your own style is included after the style of frameworks
+- [x] Script tags are put at the end of the body or in the head with async/defer if possible
 
 
 ### Errors are to be avoided
