@@ -14,6 +14,10 @@ We each made our own section on this webpage:
 | Aaron     |   Drones    |
 | Kris      |   Energy    |
 
+## Why:
+Basically because Filip said we had to this! But also because we like doing this. This project is our "Final" project, at least for HTML and (S)CSS. And thus making us a "not-so-junior junior-web-developer".  
+You can find our project ***here(!!!!)**. We've put this project on Github, so we can publish it and show it to ours parents so they can be proud of us that we finally do something productively with our lives.
+
 ### License:
 The license can be found in **this** repo under the name "license.txt"
 
@@ -65,9 +69,9 @@ The license can be found in **this** repo under the name "license.txt"
 - [x] Pictures are not pixelated
 
 ### A company wants to be found/SEO	
-- [ ] All the keywords this company wants to be found on are on the page 
+- [x] All the keywords this company wants to be found on are on the page 
 - [x] Page has an H1 tag
-- [ ] Page has keyword meta tags
+- [x] Page has keyword meta tags
 - [ ] Page has a title with the keywords in
 - [ ] Page loads fast
  
@@ -85,22 +89,22 @@ The license can be found in **this** repo under the name "license.txt"
 - [ ] Github topics have been filled in
 
 ### Readme but also writeme
-- [ ] No license text in the readme, put it in a seperate file
-- [ ] But a license is defined
-- [ ] And it is included in the readme by name or a quick summary
-- [ ] The readme says who made it
-- [ ] The readme says why they made it
-- [ ] The readme explains what this repo/project is
-- [ ] The readme explains why it is on github
-- [ ] The readme links to the preview
+- [x] No license text in the readme, put it in a seperate file
+- [x] But a license is defined
+- [x] And it is included in the readme by name or a quick summary
+- [x] The readme says who made it
+- [x] The readme says why they made it
+- [x] The readme explains what this repo/project is
+- [x] The readme explains why it is on github
+- [x] The readme links to the preview
 - [ ] The readme contains a nice image
-- [ ] The readme does not contain the readme/license of dependencies, libraries, templates
-- [ ] If needed they are included in the repo and are mentioned in the readme
-- [ ] The readme has a markdown title
-- [ ] The readme is divided in sections
+- [x] The readme does not contain the readme/license of dependencies, libraries, templates
+- [x] If needed they are included in the repo and are mentioned in the readme
+- [x] The readme has a markdown title
+- [x] The readme is divided in sections
 - [ ] The readme is fun to read
-- [ ] The readme looks good
-- [ ] The readme is clear, even for someone that has no idea what is going on
+- [x] The readme looks good
+- [x] The readme is clear, even for someone that has no idea what is going on
 
 ### I'm So Meta, Even This Acronym
 - [ ] Social media sharing meta tags are correct
