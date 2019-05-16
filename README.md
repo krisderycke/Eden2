@@ -14,27 +14,29 @@ We each made our own section on this webpage:
 | Aaron     |   Drones    |
 | Kris      |   Energy    |
 
----
+### License:
+The license can be found in **this** repo under the name "license.txt"
+
 ---
 ## Requirements:
 
 ### Perfection is not a detail
-- [ ] All buttons and links work
-- [ ] All elements work and are complete (menu, lists, images, ...)
-- [ ] Everything on the page has a function, a reason to be there
+- [x] All buttons and links work
+- [x] All elements work and are complete (menu, lists, images, ...)
+- [x] Everything on the page has a function, a reason to be there
 - [ ] No dead links
 - [x] English and dutch are not mixed
-- [ ] No spelling errors
-- [ ] No grammar errors
+- [x] No spelling errors
+- [x] No grammar errors
 - [ ] The website is deployed somewhere
 - [x] Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
-- [ ] Openinghours (if needed)
+- [x] Openinghours (if needed)
 - [ ] Address (if needed)
 - [ ] Google maps
 - [ ] Clickable email
-- [ ] A working form (you can use https://formspree.io)
+- [x] A working form (you can use https://formspree.io)
 
 ### Text life matters aka typography is real
 - [x] Some words are bolded
