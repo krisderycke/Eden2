@@ -1,5 +1,8 @@
 # Project Eden
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1"
+
+
 ## Brain-storming:
 We decided that we would erect a new company, specialized in constructing new cities. But not just **_any_** city! They are the CITIES OF TOMORROW.   
 Our website explains how we see those cities.
@@ -19,7 +22,7 @@ Basically because Filip said we had to this! But also because we like doing this
 You can find our project [here](https://cheungkinwong.github.io/project-eden/ "Project Eden"). We've put this project on Github, so we can publish it and show it to ours parents so they can be proud of us that we finally do something productively with our lives.
 
 ### License:
-The license can be found in **this** repo under the name "license.txt"
+The license can be found in [this](https://github.com/cheungkinwong/project-eden/ "Repo of Eden") repo under the name "license.txt"
 
 ---
 ## Requirements:
@@ -28,11 +31,11 @@ The license can be found in **this** repo under the name "license.txt"
 - [x] All buttons and links work
 - [x] All elements work and are complete (menu, lists, images, ...)
 - [x] Everything on the page has a function, a reason to be there
-- [ ] No dead links
+- [x] No dead links
 - [x] English and dutch are not mixed
 - [x] No spelling errors
 - [x] No grammar errors
-- [ ] The website is deployed somewhere
+- [x] The website is deployed somewhere
 - [x] Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
@@ -97,7 +100,7 @@ The license can be found in **this** repo under the name "license.txt"
 - [x] The readme explains what this repo/project is
 - [x] The readme explains why it is on github
 - [x] The readme links to the preview
-- [ ] The readme contains a nice image
+- [x] The readme contains a nice image
 - [x] The readme does not contain the readme/license of dependencies, libraries, templates
 - [x] If needed they are included in the repo and are mentioned in the readme
 - [x] The readme has a markdown title
